@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    background-image: url('https://psdpedia.com/wp-content/uploads/2018/11/Picsart-blur-background-2019-scaled.jpg');
+    background-position:right;
+}
+.calender{
+    position: relative;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+}
+.calender #monthName{
+    position: relative;
+    padding: 5px 10px;
+    background: #ff6331;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.calender #dayName{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+}
+.calender #dayNumber{
+    margin-top: 20px;
+    line-height: 1cm;
+    font-size: 80px;
+    font-weight: 700;
+    color: #999;
+}
+.calender #year{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;
+}
